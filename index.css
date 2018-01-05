@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
     margin: 0
 }
@@ -7,15 +6,23 @@ body {
     height: 800px;
     margin-top: 0;
     padding-top: 0;
-    background-color: black;
     background: url(Images/Birmingham.jpg) no-repeat center;
+    background-color: rgba(0, 0, 0, 0.671);
+    background-blend-mode: multiply;
     background-size: cover;
 }
+.top:after {
+    background:rgba(0, 0, 0, 0.75);
+}
+  
 .skills {
     width: 100%;
     text-align: center;
-=======
-.top-bar {
-    background-color: lightgray;
->>>>>>> 652f0c1c03f1df2abdfcf6ecaf8343945d6c156d
+}
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(43, 43, 43);
+    color: grey;
+    text-align: center;
 }
